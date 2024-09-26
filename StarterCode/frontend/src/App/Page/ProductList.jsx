@@ -57,7 +57,7 @@ const ProductList = () => {
               <IconButton
                 aria-label="delete"
                 onClick={() => handleDelete(product.id)}
-                sx={{ color: 'red' }} // Change icon color to red
+                sx={{ color: 'red' }}
               >
                 <DeleteIcon />
               </IconButton>
